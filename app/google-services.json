@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "382344983041",
+    "firebase_url": "https://agropod-a3f49.firebaseio.com",
+    "project_id": "agropod-a3f49",
+    "storage_bucket": "agropod-a3f49.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382344983041:android:5f3b8f3620678692",
+        "android_client_info": {
+          "package_name": "com.deveshkumar1995gmail.agropod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382344983041-tlb6mkoa0rc2nfvssqb64eh5lvto65aa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.deveshkumar1995gmail.agropod",
+            "certificate_hash": "7a21ec797b144e2ff3ee8913ce7ad088867701fd"
+          }
+        },
+        {
+          "client_id": "382344983041-h9tq8puumk4ppr77ii0usqh6gqdrgm6i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASZJRj9T-lln6PcggY7N1ISzLQEUGMqkA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382344983041-h9tq8puumk4ppr77ii0usqh6gqdrgm6i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ccffdd"
+    tools:context="com.deveshkumar1995gmail.agropod.MainPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ccffdd"
+        android:layout_margin="2sp"
+        android:padding="10sp"
+        android:orientation="horizontal">
+
+
+
+
+    <TextView
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="10sp"
+        android:id="@+id/deviceid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/device_id"
+        android:textColor="#00004d"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="57dp" android:layout_marginStart="10sp" />
+
+    <TextView
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="10sp"
+        android:id="@+id/uidno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff4d4d"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="57dp" android:layout_marginStart="10sp" />
+
+
+    </LinearLayout>
+     <LinearLayout
+
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="10sp"
+         android:orientation="vertical">
+
+         <Button
+             android:id="@+id/button1"
+             android:layout_marginTop="60sp"
+             android:paddingBottom="10sp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="@drawable/buttoncorners"
+             android:text="@string/live_fead"
+             android:textColor="#ffffff"
+             android:textSize="20sp" />
+
+
+         <Button
+             android:id="@+id/button2"
+             android:layout_marginTop="10sp"
+             android:paddingBottom="10sp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="@drawable/buttoncorners"
+             android:text="@string/previous_crop_s"
+             android:textColor="#ffffff"
+             android:textSize="20sp" />
+
+         <Button
+             android:id="@+id/button3"
+             android:layout_marginTop="10sp"
+             android:paddingBottom="10sp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="@drawable/buttoncorners"
+             android:text="@string/test_result_s"
+             android:textColor="#ffffff"
+             android:textSize="20sp" />
+
+         <Button
+             android:id="@+id/butto4"
+             android:layout_marginTop="10sp"
+             android:paddingBottom="10sp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="@drawable/buttoncorners"
+             android:text="@string/current_price_crop"
+             android:textColor="#ffffff"
+             android:textSize="20sp" />
+
+         <Button
+             android:id="@+id/button5"
+
+             android:layout_marginTop="10sp"
+             android:paddingBottom="10sp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="@drawable/buttoncorners"
+             android:text=""
+             android:textColor="#ffffff"
+             android:textSize="20sp" />
+
+         <Button
+             android:layout_marginTop="10sp"
+             android:paddingBottom="10sp"
+             android:id="@+id/button6"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="@drawable/buttoncorners"
+             android:text="@string/buttons2"
+             android:textColor="#ffffff"
+             android:textSize="20sp" />
+
+
+
+     </LinearLayout>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

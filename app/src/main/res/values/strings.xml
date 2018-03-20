@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AgroPod</string>
+    <string name="buttons2">Buttons2</string>
+    <string name="device_id">Device ID</string>
+    <string name="live_fead">Live fead</string>
+    <string name="previous_crop_s">Previous Crop(s)</string>
+    <string name="test_result_s">test result(s)</string>
+    <string name="current_price_crop">Current price(Crop)</string>
+</resources>
